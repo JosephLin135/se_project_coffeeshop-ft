@@ -1,0 +1,71 @@
+.menu {
+    background-color: #fff;
+    background-image: url('../images/background_menu.svg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.menu__title {
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.menu__subtitle {
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.menu__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 540px;
+}
+
+.card__title {
+    padding-bottom: 32px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.card__list-item {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 16px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card__list-divider {
+    flex: 1;
+    border-bottom: 1px solid currentColor;
+    margin: 0 8px;
+}
